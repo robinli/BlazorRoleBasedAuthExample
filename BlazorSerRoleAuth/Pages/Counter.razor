@@ -1,0 +1,45 @@
+﻿@page "/counter"
+@attribute [Authorize(Roles = "CanViewCounterPage")]
+@inject AuthenticationStateProvider AuthenticationStateProvider
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+
+<AuthorizeView Roles="CanClickCounterButton">
+    <Authorized>
+        <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    </Authorized>
+    <NotAuthorized>
+        尚未授權 CanClickCounterButton
+    </NotAuthorized>
+</AuthorizeView>
+
+<p class="text-danger" >
+    @Message
+</p>
+
+@code {
+
+    private ClaimsPrincipal User;
+    private string Message = "";
+    private int currentCount = 0;
+
+    protected async override Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        User = authState.User;
+    }
+
+    private void IncrementCount()
+    {
+        if(User.Identity.IsAuthenticated && User.IsInRole("CanIncrementCounter"))
+        {
+            currentCount++;
+        }
+        else
+        {
+            Message = "尚未授權 CanIncrementCounter";
+        }
+    }
+}

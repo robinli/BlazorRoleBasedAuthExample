@@ -1,0 +1,11 @@
+E:\Temp\BlazorAuthWasm\Shared\bin\Debug\net5.0\BlazorAuthWasm.Shared.deps.json
+E:\Temp\BlazorAuthWasm\Shared\bin\Debug\net5.0\BlazorAuthWasm.Shared.dll
+E:\Temp\BlazorAuthWasm\Shared\bin\Debug\net5.0\ref\BlazorAuthWasm.Shared.dll
+E:\Temp\BlazorAuthWasm\Shared\bin\Debug\net5.0\BlazorAuthWasm.Shared.pdb
+E:\Temp\BlazorAuthWasm\Shared\obj\Debug\net5.0\BlazorAuthWasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Temp\BlazorAuthWasm\Shared\obj\Debug\net5.0\BlazorAuthWasm.Shared.AssemblyInfoInputs.cache
+E:\Temp\BlazorAuthWasm\Shared\obj\Debug\net5.0\BlazorAuthWasm.Shared.AssemblyInfo.cs
+E:\Temp\BlazorAuthWasm\Shared\obj\Debug\net5.0\BlazorAuthWasm.Shared.csproj.CoreCompileInputs.cache
+E:\Temp\BlazorAuthWasm\Shared\obj\Debug\net5.0\BlazorAuthWasm.Shared.dll
+E:\Temp\BlazorAuthWasm\Shared\obj\Debug\net5.0\ref\BlazorAuthWasm.Shared.dll
+E:\Temp\BlazorAuthWasm\Shared\obj\Debug\net5.0\BlazorAuthWasm.Shared.pdb
